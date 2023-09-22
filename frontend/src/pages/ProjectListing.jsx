@@ -1,7 +1,7 @@
 export const ProjectListing=()=>{
     return(
         <>
-        Project Listing
+        Project Listing| this page will show all projects 
         </>
     )
 }
