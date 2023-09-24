@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { AllRoutes } from './components/AllRoutes'
 import Navbar  from './components/Navbar.jsx'
+import { Empty } from './components/Empty'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,7 @@ function App() {
   return (
     <>
     <Navbar/>
-  
+  <Empty/>
     <AllRoutes/>
       
     </>

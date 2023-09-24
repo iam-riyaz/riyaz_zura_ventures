@@ -1,0 +1,27 @@
+.empty{
+    width:30%;
+    margin:auto
+}
+
+.add-project{
+    background-color: rgb(36, 29, 29);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.my-color{
+    color: #843399;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.plus{
+    display: flex;
+    justify-items:center;
+}
