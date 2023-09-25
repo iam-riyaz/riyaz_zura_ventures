@@ -1,4 +1,5 @@
 import { svgCode } from "../assets/EmptySVG";
+import AddProject_modal from "./AddProject-modal";
 import "./Empty.css";
 
 export const Empty = () => {
@@ -28,6 +29,7 @@ export const Empty = () => {
           Add new Project
         </button>
       </div>
+      <AddProject_modal/>
     </>
   );
 };
